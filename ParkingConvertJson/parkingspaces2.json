@@ -1,0 +1,2473 @@
+{
+   "displayFieldName":"DRAGERTYPE_WAARDE",
+   "fieldAliases":{
+      "ID":"ID",
+      "NAAM":"Naam",
+      "STATUS_WAARDE":"Status",
+      "BORDTYPE_WAARDE":"Bordtype",
+      "ONDERBORDTYPE_WAARDE":"Onderbordtype",
+      "DRAGERTYPE_WAARDE":"Type drager",
+      "VERGUNNINGGEBIED_NAAM":"Vergunningsgebied"
+   },
+   "geometryType":"esriGeometryPoint",
+   "spatialReference":{
+      "wkid":4326,
+      "latestWkid":4326
+   },
+   "fields":[
+      {
+         "name":"ID",
+         "type":"esriFieldTypeOID",
+         "alias":"ID"
+      },
+      {
+         "name":"NAAM",
+         "type":"esriFieldTypeString",
+         "alias":"Naam",
+         "length":100
+      },
+      {
+         "name":"STATUS_WAARDE",
+         "type":"esriFieldTypeString",
+         "alias":"Status",
+         "length":100
+      },
+      {
+         "name":"BORDTYPE_WAARDE",
+         "type":"esriFieldTypeString",
+         "alias":"Bordtype",
+         "length":100
+      },
+      {
+         "name":"ONDERBORDTYPE_WAARDE",
+         "type":"esriFieldTypeString",
+         "alias":"Onderbordtype",
+         "length":100
+      },
+      {
+         "name":"DRAGERTYPE_WAARDE",
+         "type":"esriFieldTypeString",
+         "alias":"Type drager",
+         "length":100
+      },
+      {
+         "name":"VERGUNNINGGEBIED_NAAM",
+         "type":"esriFieldTypeString",
+         "alias":"Vergunningsgebied",
+         "length":100
+      }
+   ],
+   "features":[
+      {
+         "attributes":{
+            "ID":238,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum west"
+         },
+         "geometry":{
+            "x":4.2936348086458196,
+            "y":52.079247529093848
+         }
+      },
+      {
+         "attributes":{
+            "ID":244,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum west"
+         },
+         "geometry":{
+            "x":4.2964005377562255,
+            "y":52.080245748052654
+         }
+      },
+      {
+         "attributes":{
+            "ID":276,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum west"
+         },
+         "geometry":{
+            "x":4.2966441155472461,
+            "y":52.085412124310317
+         }
+      },
+      {
+         "attributes":{
+            "ID":292,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum west"
+         },
+         "geometry":{
+            "x":4.2996089417961976,
+            "y":52.082234241312293
+         }
+      },
+      {
+         "attributes":{
+            "ID":336,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum west"
+         },
+         "geometry":{
+            "x":4.2933422462495061,
+            "y":52.081835244888445
+         }
+      },
+      {
+         "attributes":{
+            "ID":225,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum west"
+         },
+         "geometry":{
+            "x":4.2946717850903484,
+            "y":52.082007148036254
+         }
+      },
+      {
+         "attributes":{
+            "ID":449,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":null,
+            "VERGUNNINGGEBIED_NAAM":"Vruchtenbuurt"
+         },
+         "geometry":{
+            "x":4.2612447487727385,
+            "y":52.072885446633293
+         }
+      },
+      {
+         "attributes":{
+            "ID":557,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Lichtmast",
+            "VERGUNNINGGEBIED_NAAM":"Vruchtenbuurt"
+         },
+         "geometry":{
+            "x":4.2593804063293881,
+            "y":52.070003421002497
+         }
+      },
+      {
+         "attributes":{
+            "ID":607,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Heesterbuurt"
+         },
+         "geometry":{
+            "x":4.2685910577691004,
+            "y":52.072405043130175
+         }
+      },
+      {
+         "attributes":{
+            "ID":980,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.310476476128426,
+            "y":52.087710740073526
+         }
+      },
+      {
+         "attributes":{
+            "ID":714,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Vruchtenbuurt"
+         },
+         "geometry":{
+            "x":4.2566795568013358,
+            "y":52.068215933222049
+         }
+      },
+      {
+         "attributes":{
+            "ID":718,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Vruchtenbuurt"
+         },
+         "geometry":{
+            "x":4.2559684658263564,
+            "y":52.067939370674075
+         }
+      },
+      {
+         "attributes":{
+            "ID":720,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Vruchtenbuurt"
+         },
+         "geometry":{
+            "x":4.2551236756638797,
+            "y":52.067623810920388
+         }
+      },
+      {
+         "attributes":{
+            "ID":724,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Vruchtenbuurt"
+         },
+         "geometry":{
+            "x":4.2548533349206945,
+            "y":52.067511000780073
+         }
+      },
+      {
+         "attributes":{
+            "ID":727,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Vruchtenbuurt"
+         },
+         "geometry":{
+            "x":4.2541302287397889,
+            "y":52.067234050784506
+         }
+      },
+      {
+         "attributes":{
+            "ID":728,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Vruchtenbuurt"
+         },
+         "geometry":{
+            "x":4.2540342969558029,
+            "y":52.06720547843134
+         }
+      },
+      {
+         "attributes":{
+            "ID":519,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Lichtmast",
+            "VERGUNNINGGEBIED_NAAM":"Heesterbuurt"
+         },
+         "geometry":{
+            "x":4.2676708183278755,
+            "y":52.072182009206443
+         }
+      },
+      {
+         "attributes":{
+            "ID":1294,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.3071009211555031,
+            "y":52.075843149494133
+         }
+      },
+      {
+         "attributes":{
+            "ID":1305,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum west"
+         },
+         "geometry":{
+            "x":4.3060067201013945,
+            "y":52.074634222398423
+         }
+      },
+      {
+         "attributes":{
+            "ID":1306,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"HTM-mast",
+            "VERGUNNINGGEBIED_NAAM":"Centrum west"
+         },
+         "geometry":{
+            "x":4.3041216874094461,
+            "y":52.073873485759954
+         }
+      },
+      {
+         "attributes":{
+            "ID":1316,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum west"
+         },
+         "geometry":{
+            "x":4.2996105506757782,
+            "y":52.074048171277219
+         }
+      },
+      {
+         "attributes":{
+            "ID":1317,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Lichtmast",
+            "VERGUNNINGGEBIED_NAAM":"Centrum west"
+         },
+         "geometry":{
+            "x":4.2991118983706249,
+            "y":52.074376357562201
+         }
+      },
+      {
+         "attributes":{
+            "ID":1318,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Lichtmast",
+            "VERGUNNINGGEBIED_NAAM":"Centrum west"
+         },
+         "geometry":{
+            "x":4.2989928113602263,
+            "y":52.074318628566118
+         }
+      },
+      {
+         "attributes":{
+            "ID":1319,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Lichtmast",
+            "VERGUNNINGGEBIED_NAAM":"Centrum west"
+         },
+         "geometry":{
+            "x":4.2988461444240809,
+            "y":52.074231341351414
+         }
+      },
+      {
+         "attributes":{
+            "ID":1321,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.3119602701843665,
+            "y":52.078506858207632
+         }
+      },
+      {
+         "attributes":{
+            "ID":1322,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.3120090609403539,
+            "y":52.078473820437132
+         }
+      },
+      {
+         "attributes":{
+            "ID":1323,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.313312524342285,
+            "y":52.079464975336421
+         }
+      },
+      {
+         "attributes":{
+            "ID":1324,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.313385728866491,
+            "y":52.079491224413374
+         }
+      },
+      {
+         "attributes":{
+            "ID":1327,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.3172093730143475,
+            "y":52.0784363243393
+         }
+      },
+      {
+         "attributes":{
+            "ID":769,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2468209813477102,
+            "y":52.067052041485645
+         }
+      },
+      {
+         "attributes":{
+            "ID":6251,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.3014721055999754,
+            "y":52.106769698309499
+         }
+      },
+      {
+         "attributes":{
+            "ID":836,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.3012496788234253,
+            "y":52.086562320693794
+         }
+      },
+      {
+         "attributes":{
+            "ID":1205,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Lichtmast",
+            "VERGUNNINGGEBIED_NAAM":"Mient tot Volendamlaan"
+         },
+         "geometry":{
+            "x":4.2630272214407858,
+            "y":52.063558425141082
+         }
+      },
+      {
+         "attributes":{
+            "ID":1223,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.3065294025108818,
+            "y":52.077673372909253
+         }
+      },
+      {
+         "attributes":{
+            "ID":1229,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.3044301638344358,
+            "y":52.078785899069224
+         }
+      },
+      {
+         "attributes":{
+            "ID":1238,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.3058472093775908,
+            "y":52.082187125376088
+         }
+      },
+      {
+         "attributes":{
+            "ID":1241,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.3088734829535937,
+            "y":52.080893201278521
+         }
+      },
+      {
+         "attributes":{
+            "ID":1261,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":null,
+            "VERGUNNINGGEBIED_NAAM":"Centrum west"
+         },
+         "geometry":{
+            "x":4.2999388202409579,
+            "y":52.074887900808413
+         }
+      },
+      {
+         "attributes":{
+            "ID":1263,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum west"
+         },
+         "geometry":{
+            "x":4.3029128477160334,
+            "y":52.076143170689377
+         }
+      },
+      {
+         "attributes":{
+            "ID":1289,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Gebouw",
+            "VERGUNNINGGEBIED_NAAM":"Centrum west"
+         },
+         "geometry":{
+            "x":4.300766115769922,
+            "y":52.075060475908415
+         }
+      },
+      {
+         "attributes":{
+            "ID":1290,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Gebouw",
+            "VERGUNNINGGEBIED_NAAM":"Centrum west"
+         },
+         "geometry":{
+            "x":4.3008099323575921,
+            "y":52.075016205872195
+         }
+      },
+      {
+         "attributes":{
+            "ID":1176,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Lichtmast",
+            "VERGUNNINGGEBIED_NAAM":"Mient tot Volendamlaan"
+         },
+         "geometry":{
+            "x":4.2691930022229334,
+            "y":52.063026631419277
+         }
+      },
+      {
+         "attributes":{
+            "ID":1548,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Archipelbuurt"
+         },
+         "geometry":{
+            "x":4.3012833778320285,
+            "y":52.091897269286264
+         }
+      },
+      {
+         "attributes":{
+            "ID":1567,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Archipelbuurt"
+         },
+         "geometry":{
+            "x":4.3085106979833574,
+            "y":52.093734634765148
+         }
+      },
+      {
+         "attributes":{
+            "ID":1582,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Archipelbuurt"
+         },
+         "geometry":{
+            "x":4.3043974642470202,
+            "y":52.091822866859907
+         }
+      },
+      {
+         "attributes":{
+            "ID":1586,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Archipelbuurt"
+         },
+         "geometry":{
+            "x":4.3033874263321898,
+            "y":52.091601826080414
+         }
+      },
+      {
+         "attributes":{
+            "ID":1111,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Mient tot Volendamlaan"
+         },
+         "geometry":{
+            "x":4.2611480159769979,
+            "y":52.064911153447262
+         }
+      },
+      {
+         "attributes":{
+            "ID":1136,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Mient tot Volendamlaan"
+         },
+         "geometry":{
+            "x":4.2652666088654385,
+            "y":52.067719030527712
+         }
+      },
+      {
+         "attributes":{
+            "ID":1866,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Bomenbuurt"
+         },
+         "geometry":{
+            "x":4.2762458956106961,
+            "y":52.081283024247249
+         }
+      },
+      {
+         "attributes":{
+            "ID":1927,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Bomenbuurt"
+         },
+         "geometry":{
+            "x":4.2693251242648573,
+            "y":52.078953528391246
+         }
+      },
+      {
+         "attributes":{
+            "ID":1341,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.3115311259174458,
+            "y":52.081310389966603
+         }
+      },
+      {
+         "attributes":{
+            "ID":1342,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.3114502513717046,
+            "y":52.081293597780153
+         }
+      },
+      {
+         "attributes":{
+            "ID":1351,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.3083618569871973,
+            "y":52.082880330063027
+         }
+      },
+      {
+         "attributes":{
+            "ID":1370,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.3099892214532671,
+            "y":52.081476662731305
+         }
+      },
+      {
+         "attributes":{
+            "ID":1371,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.3102331520654555,
+            "y":52.081576959482739
+         }
+      },
+      {
+         "attributes":{
+            "ID":1372,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":null,
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.3119816933314654,
+            "y":52.082151019809167
+         }
+      },
+      {
+         "attributes":{
+            "ID":1377,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.3145108031872095,
+            "y":52.082874633460875
+         }
+      },
+      {
+         "attributes":{
+            "ID":1385,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.3100396738272284,
+            "y":52.081833419052465
+         }
+      },
+      {
+         "attributes":{
+            "ID":1453,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.316027267379722,
+            "y":52.082262292671579
+         }
+      },
+      {
+         "attributes":{
+            "ID":1455,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.3164060390682142,
+            "y":52.081907436095953
+         }
+      },
+      {
+         "attributes":{
+            "ID":1456,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum midden"
+         },
+         "geometry":{
+            "x":4.3164339360436221,
+            "y":52.081884220065263
+         }
+      },
+      {
+         "attributes":{
+            "ID":1999,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Lichtmast",
+            "VERGUNNINGGEBIED_NAAM":"Bomenbuurt"
+         },
+         "geometry":{
+            "x":4.2701210245842054,
+            "y":52.076869638825997
+         }
+      },
+      {
+         "attributes":{
+            "ID":2034,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Bomenbuurt"
+         },
+         "geometry":{
+            "x":4.2711411586395984,
+            "y":52.076937032400807
+         }
+      },
+      {
+         "attributes":{
+            "ID":2214,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Bomenbuurt"
+         },
+         "geometry":{
+            "x":4.2640373977755939,
+            "y":52.076573760785365
+         }
+      },
+      {
+         "attributes":{
+            "ID":2235,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Bomenbuurt"
+         },
+         "geometry":{
+            "x":4.2625127373167997,
+            "y":52.077907032277537
+         }
+      },
+      {
+         "attributes":{
+            "ID":2645,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Laakhaven"
+         },
+         "geometry":{
+            "x":4.3220741061176202,
+            "y":52.064029318370793
+         }
+      },
+      {
+         "attributes":{
+            "ID":2686,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Morgenstond"
+         },
+         "geometry":{
+            "x":4.2749421088148889,
+            "y":52.048561022868803
+         }
+      },
+      {
+         "attributes":{
+            "ID":2687,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Morgenstond"
+         },
+         "geometry":{
+            "x":4.2750129544684894,
+            "y":52.048592451673798
+         }
+      },
+      {
+         "attributes":{
+            "ID":2704,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Morgenstond"
+         },
+         "geometry":{
+            "x":4.2783246151011376,
+            "y":52.048090166744039
+         }
+      },
+      {
+         "attributes":{
+            "ID":2706,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Morgenstond"
+         },
+         "geometry":{
+            "x":4.2779803827722658,
+            "y":52.048734991498655
+         }
+      },
+      {
+         "attributes":{
+            "ID":2610,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Laakhaven"
+         },
+         "geometry":{
+            "x":4.3137818818839033,
+            "y":52.063265223547909
+         }
+      },
+      {
+         "attributes":{
+            "ID":2712,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Morgenstond"
+         },
+         "geometry":{
+            "x":4.2767543743125493,
+            "y":52.049579083044826
+         }
+      },
+      {
+         "attributes":{
+            "ID":2713,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Morgenstond"
+         },
+         "geometry":{
+            "x":4.2766289961183004,
+            "y":52.049509585822662
+         }
+      },
+      {
+         "attributes":{
+            "ID":2842,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Bezuidenhout Midden (noord)"
+         },
+         "geometry":{
+            "x":4.332640649368372,
+            "y":52.086039803610582
+         }
+      },
+      {
+         "attributes":{
+            "ID":2850,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Bezuidenhout Midden (noord)"
+         },
+         "geometry":{
+            "x":4.336305752085166,
+            "y":52.085960097309218
+         }
+      },
+      {
+         "attributes":{
+            "ID":2879,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Bezuidenhout Midden (noord)"
+         },
+         "geometry":{
+            "x":4.3301117653460528,
+            "y":52.082945528178534
+         }
+      },
+      {
+         "attributes":{
+            "ID":2883,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Bezuidenhout Midden (noord)"
+         },
+         "geometry":{
+            "x":4.329817783056674,
+            "y":52.082760698578142
+         }
+      },
+      {
+         "attributes":{
+            "ID":2904,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Bezuidenhout Midden (zuid)"
+         },
+         "geometry":{
+            "x":4.3366503980048572,
+            "y":52.080108656900435
+         }
+      },
+      {
+         "attributes":{
+            "ID":2905,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Bezuidenhout Midden (zuid)"
+         },
+         "geometry":{
+            "x":4.3367570832232767,
+            "y":52.080010094210984
+         }
+      },
+      {
+         "attributes":{
+            "ID":2906,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Lichtmast",
+            "VERGUNNINGGEBIED_NAAM":"Bezuidenhout Midden (zuid)"
+         },
+         "geometry":{
+            "x":4.3366783978960388,
+            "y":52.080078075319634
+         }
+      },
+      {
+         "attributes":{
+            "ID":2916,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Bezuidenhout Midden (zuid)"
+         },
+         "geometry":{
+            "x":4.333436930650576,
+            "y":52.082098149386255
+         }
+      },
+      {
+         "attributes":{
+            "ID":2622,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Laakhaven"
+         },
+         "geometry":{
+            "x":4.3187282610776361,
+            "y":52.063514048664764
+         }
+      },
+      {
+         "attributes":{
+            "ID":2623,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Laakhaven"
+         },
+         "geometry":{
+            "x":4.3187013217820525,
+            "y":52.063498909970804
+         }
+      },
+      {
+         "attributes":{
+            "ID":3247,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Haagse Mart e.o. (Schilderswijk)"
+         },
+         "geometry":{
+            "x":4.297798831650395,
+            "y":52.070412695357717
+         }
+      },
+      {
+         "attributes":{
+            "ID":3464,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Transvaal Groothandelsmarkt  Marktregeling max 120 minuten"
+         },
+         "geometry":{
+            "x":4.2940486307961034,
+            "y":52.06557403750265
+         }
+      },
+      {
+         "attributes":{
+            "ID":3376,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Transvaal Groothandelsmarkt  Marktregeling max 120 minuten"
+         },
+         "geometry":{
+            "x":4.2920462022333421,
+            "y":52.068465831321845
+         }
+      },
+      {
+         "attributes":{
+            "ID":3391,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Transvaal Groothandelsmarkt  Marktregeling max 120 minuten"
+         },
+         "geometry":{
+            "x":4.2961721048524719,
+            "y":52.067088348247125
+         }
+      },
+      {
+         "attributes":{
+            "ID":3551,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Haagse Mart e.o. (Schilderswijk)"
+         },
+         "geometry":{
+            "x":4.2974360287321378,
+            "y":52.068858877968552
+         }
+      },
+      {
+         "attributes":{
+            "ID":3411,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"HTM-mast",
+            "VERGUNNINGGEBIED_NAAM":"Transvaal Groothandelsmarkt  Marktregeling max 120 minuten"
+         },
+         "geometry":{
+            "x":4.2879713768093799,
+            "y":52.067835187637627
+         }
+      },
+      {
+         "attributes":{
+            "ID":3879,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Transvaal Groothandelsmarkt  Marktregeling max 120 minuten"
+         },
+         "geometry":{
+            "x":4.3026397355230639,
+            "y":52.058549124255734
+         }
+      },
+      {
+         "attributes":{
+            "ID":3890,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Transvaal Groothandelsmarkt  Marktregeling max 120 minuten"
+         },
+         "geometry":{
+            "x":4.3057673538784975,
+            "y":52.059023085314514
+         }
+      },
+      {
+         "attributes":{
+            "ID":3573,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Transvaal Groothandelsmarkt  Marktregeling max 120 minuten"
+         },
+         "geometry":{
+            "x":4.2996959154013448,
+            "y":52.062061821601823
+         }
+      },
+      {
+         "attributes":{
+            "ID":3325,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Lichtmast",
+            "VERGUNNINGGEBIED_NAAM":"Transvaal Groothandelsmarkt  Marktregeling max 120 minuten"
+         },
+         "geometry":{
+            "x":4.292699708685948,
+            "y":52.069512560995598
+         }
+      },
+      {
+         "attributes":{
+            "ID":3758,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Lichtmast",
+            "VERGUNNINGGEBIED_NAAM":"Haagse Mart e.o. (Schilderswijk)"
+         },
+         "geometry":{
+            "x":4.3042012999686143,
+            "y":52.06588456770222
+         }
+      },
+      {
+         "attributes":{
+            "ID":3660,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Transvaal Groothandelsmarkt  Marktregeling max 120 minuten"
+         },
+         "geometry":{
+            "x":4.2942476355871548,
+            "y":52.061817544099085
+         }
+      },
+      {
+         "attributes":{
+            "ID":3671,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Transvaal Groothandelsmarkt  Marktregeling max 120 minuten"
+         },
+         "geometry":{
+            "x":4.297521424741066,
+            "y":52.061961321670594
+         }
+      },
+      {
+         "attributes":{
+            "ID":3741,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Haagse Mart e.o. (Schilderswijk)"
+         },
+         "geometry":{
+            "x":4.3033761399539712,
+            "y":52.064243541850118
+         }
+      },
+      {
+         "attributes":{
+            "ID":4231,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Haagse Mart e.o. (Schilderswijk)"
+         },
+         "geometry":{
+            "x":4.3068403914587323,
+            "y":52.065184855192953
+         }
+      },
+      {
+         "attributes":{
+            "ID":4064,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Haagse Mart e.o. (Schilderswijk)"
+         },
+         "geometry":{
+            "x":4.3025036600868996,
+            "y":52.068886176866371
+         }
+      },
+      {
+         "attributes":{
+            "ID":5131,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Lichtmast",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.275623963407452,
+            "y":52.104406877369534
+         }
+      },
+      {
+         "attributes":{
+            "ID":5136,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.262910041727328,
+            "y":52.101188679359836
+         }
+      },
+      {
+         "attributes":{
+            "ID":5137,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2631181984838209,
+            "y":52.101269316362853
+         }
+      },
+      {
+         "attributes":{
+            "ID":5138,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2641163102331756,
+            "y":52.102052583254057
+         }
+      },
+      {
+         "attributes":{
+            "ID":5139,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2641793676755837,
+            "y":52.102099026726989
+         }
+      },
+      {
+         "attributes":{
+            "ID":5140,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2642349935062764,
+            "y":52.102133354428652
+         }
+      },
+      {
+         "attributes":{
+            "ID":5141,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2642883641943596,
+            "y":52.102176110049555
+         }
+      },
+      {
+         "attributes":{
+            "ID":5142,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.264341819962663,
+            "y":52.102221293419923
+         }
+      },
+      {
+         "attributes":{
+            "ID":5143,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2643934766138729,
+            "y":52.102256751770469
+         }
+      },
+      {
+         "attributes":{
+            "ID":5144,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2699180940729624,
+            "y":52.106134500061131
+         }
+      },
+      {
+         "attributes":{
+            "ID":5145,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2700139621608493,
+            "y":52.106194464746103
+         }
+      },
+      {
+         "attributes":{
+            "ID":5146,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2700689978885151,
+            "y":52.106246941275124
+         }
+      },
+      {
+         "attributes":{
+            "ID":5182,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2833660103125961,
+            "y":52.112580996990431
+         }
+      },
+      {
+         "attributes":{
+            "ID":5186,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2844140161860897,
+            "y":52.114915960485639
+         }
+      },
+      {
+         "attributes":{
+            "ID":5190,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2868738472719725,
+            "y":52.11745487429485
+         }
+      },
+      {
+         "attributes":{
+            "ID":5191,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Lichtmast",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2872928977664406,
+            "y":52.117422065667427
+         }
+      },
+      {
+         "attributes":{
+            "ID":4683,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2768762474284809,
+            "y":52.104606958224558
+         }
+      },
+      {
+         "attributes":{
+            "ID":4781,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2794142027532232,
+            "y":52.101783745840805
+         }
+      },
+      {
+         "attributes":{
+            "ID":4782,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2793845195256326,
+            "y":52.101807664536459
+         }
+      },
+      {
+         "attributes":{
+            "ID":4789,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Lichtmast",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2788091919376106,
+            "y":52.10248281098275
+         }
+      },
+      {
+         "attributes":{
+            "ID":4694,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2791961155851741,
+            "y":52.103555748731125
+         }
+      },
+      {
+         "attributes":{
+            "ID":4716,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.278435254742595,
+            "y":52.106962128274652
+         }
+      },
+      {
+         "attributes":{
+            "ID":5053,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2879144650497034,
+            "y":52.111729463178797
+         }
+      },
+      {
+         "attributes":{
+            "ID":5063,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2818634174553365,
+            "y":52.11270112854681
+         }
+      },
+      {
+         "attributes":{
+            "ID":4903,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2771787232409135,
+            "y":52.09423742705156
+         }
+      },
+      {
+         "attributes":{
+            "ID":4904,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2768957922341873,
+            "y":52.094147517072088
+         }
+      },
+      {
+         "attributes":{
+            "ID":4912,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2760184151488119,
+            "y":52.093043438133208
+         }
+      },
+      {
+         "attributes":{
+            "ID":4913,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2755514155605718,
+            "y":52.092533137933934
+         }
+      },
+      {
+         "attributes":{
+            "ID":4917,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2748962838527422,
+            "y":52.0916553527017
+         }
+      },
+      {
+         "attributes":{
+            "ID":4918,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2747910955729704,
+            "y":52.091320499421563
+         }
+      },
+      {
+         "attributes":{
+            "ID":4924,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2746084408943208,
+            "y":52.089819531060208
+         }
+      },
+      {
+         "attributes":{
+            "ID":4926,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2749135111333869,
+            "y":52.08960594355738
+         }
+      },
+      {
+         "attributes":{
+            "ID":4933,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Lichtmast",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2770315037681685,
+            "y":52.088139983711798
+         }
+      },
+      {
+         "attributes":{
+            "ID":4964,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2918375233737338,
+            "y":52.107406339484172
+         }
+      },
+      {
+         "attributes":{
+            "ID":5003,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2922868660009215,
+            "y":52.110970887734787
+         }
+      },
+      {
+         "attributes":{
+            "ID":6335,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.3496258219725297,
+            "y":52.065640939025386
+         }
+      },
+      {
+         "attributes":{
+            "ID":5886,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Benoordenhout"
+         },
+         "geometry":{
+            "x":4.3224016915076735,
+            "y":52.091823372792014
+         }
+      },
+      {
+         "attributes":{
+            "ID":5914,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Benoordenhout"
+         },
+         "geometry":{
+            "x":4.3248610403249366,
+            "y":52.092507737631337
+         }
+      },
+      {
+         "attributes":{
+            "ID":6535,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Lichtmast",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2515137605198419,
+            "y":52.063246212850004
+         }
+      },
+      {
+         "attributes":{
+            "ID":5940,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Benoordenhout"
+         },
+         "geometry":{
+            "x":4.3293626243480947,
+            "y":52.092778034390356
+         }
+      },
+      {
+         "attributes":{
+            "ID":5819,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2853989117090689,
+            "y":52.114020743209117
+         }
+      },
+      {
+         "attributes":{
+            "ID":5535,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Rustenburg - Oostbroek"
+         },
+         "geometry":{
+            "x":4.2774543297816221,
+            "y":52.064926877607554
+         }
+      },
+      {
+         "attributes":{
+            "ID":5539,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Rustenburg - Oostbroek"
+         },
+         "geometry":{
+            "x":4.2772945371445461,
+            "y":52.064870720297968
+         }
+      },
+      {
+         "attributes":{
+            "ID":7737,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":null,
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Onbekend"
+         },
+         "geometry":{
+            "x":4.2672274257009102,
+            "y":52.072746686765598
+         }
+      },
+      {
+         "attributes":{
+            "ID":8245,
+            "NAAM":"~",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":null,
+            "DRAGERTYPE_WAARDE":"Gebouw",
+            "VERGUNNINGGEBIED_NAAM":"Centrum west"
+         }
+      },
+      {
+         "attributes":{
+            "ID":5255,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Rustenburg - Oostbroek"
+         },
+         "geometry":{
+            "x":4.2800516918241307,
+            "y":52.065843940292275
+         }
+      },
+      {
+         "attributes":{
+            "ID":5290,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Rustenburg - Oostbroek"
+         },
+         "geometry":{
+            "x":4.284668067991559,
+            "y":52.066717278487125
+         }
+      },
+      {
+         "attributes":{
+            "ID":8076,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Laakhaven"
+         },
+         "geometry":{
+            "x":4.3237628474632013,
+            "y":52.069024160796616
+         }
+      },
+      {
+         "attributes":{
+            "ID":8077,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Laakhaven"
+         },
+         "geometry":{
+            "x":4.3238293326226742,
+            "y":52.069055277651039
+         }
+      },
+      {
+         "attributes":{
+            "ID":8080,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Laakhaven"
+         },
+         "geometry":{
+            "x":4.3254155066762632,
+            "y":52.069738857534183
+         }
+      },
+      {
+         "attributes":{
+            "ID":8527,
+            "NAAM":"~",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Benoordenhout"
+         },
+         "geometry":{
+            "x":4.3174842650583978,
+            "y":52.103700526069112
+         }
+      },
+      {
+         "attributes":{
+            "ID":8528,
+            "NAAM":"~",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Benoordenhout"
+         },
+         "geometry":{
+            "x":4.317686827505625,
+            "y":52.103527803936977
+         }
+      },
+      {
+         "attributes":{
+            "ID":5711,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Benoordenhout"
+         },
+         "geometry":{
+            "x":4.3296173090508221,
+            "y":52.093440530018462
+         }
+      },
+      {
+         "attributes":{
+            "ID":5743,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Benoordenhout"
+         },
+         "geometry":{
+            "x":4.3141443180692001,
+            "y":52.088528065402805
+         }
+      },
+      {
+         "attributes":{
+            "ID":5787,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Benoordenhout"
+         },
+         "geometry":{
+            "x":4.3205075900272627,
+            "y":52.090101717119829
+         }
+      },
+      {
+         "attributes":{
+            "ID":5364,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Rustenburg - Oostbroek"
+         },
+         "geometry":{
+            "x":4.2780315038287249,
+            "y":52.066995591164208
+         }
+      },
+      {
+         "attributes":{
+            "ID":6117,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Benoordenhout"
+         },
+         "geometry":{
+            "x":4.3116314318262967,
+            "y":52.097181318132158
+         }
+      },
+      {
+         "attributes":{
+            "ID":5652,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Overig onderbord",
+            "DRAGERTYPE_WAARDE":"Lichtmast",
+            "VERGUNNINGGEBIED_NAAM":"Benoordenhout"
+         },
+         "geometry":{
+            "x":4.3328141724792602,
+            "y":52.096954785530421
+         }
+      },
+      {
+         "attributes":{
+            "ID":5444,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Lichtmast",
+            "VERGUNNINGGEBIED_NAAM":"Rustenburg - Oostbroek"
+         },
+         "geometry":{
+            "x":4.2874933319250701,
+            "y":52.06323359579801
+         }
+      },
+      {
+         "attributes":{
+            "ID":8250,
+            "NAAM":"~",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":null,
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Centrum west"
+         },
+         "geometry":{
+            "x":4.2928315716347978,
+            "y":52.078456261242557
+         }
+      },
+      {
+         "attributes":{
+            "ID":5382,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Werkingstijden",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Rustenburg - Oostbroek"
+         },
+         "geometry":{
+            "x":4.2770361357326969,
+            "y":52.068659316153884
+         }
+      },
+      {
+         "attributes":{
+            "ID":5393,
+            "NAAM":"Parkeerbord",
+            "STATUS_WAARDE":"Definitief",
+            "BORDTYPE_WAARDE":"Algemene gehandicaptenplaats",
+            "ONDERBORDTYPE_WAARDE":"Geen onderbord",
+            "DRAGERTYPE_WAARDE":"Parkeerbordpaal",
+            "VERGUNNINGGEBIED_NAAM":"Rustenburg - Oostbroek"
+         },
+         "geometry":{
+            "x":4.2825761796833559,
+            "y":52.063659140074279
+         }
+      }
+   ]
+}
