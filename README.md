@@ -1,7 +1,7 @@
 # ParkingConvert
 
 Dit zijn de queries voor de database.
-1. Maak DB aan
+1. Maak de DB aan
 2. Maak de tables aan
 3. Voeg de FK toe
 
