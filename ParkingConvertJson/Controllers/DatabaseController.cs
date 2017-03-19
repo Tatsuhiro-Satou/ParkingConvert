@@ -13,7 +13,6 @@ namespace ParkingConvertJson.Controllers
         protected SqlConnection connection;
         protected SqlCommand sqlCommand;
         protected string query;
-        protected List<Features> failedRoadworks;
 
         public DatabaseController()
         {
@@ -22,9 +21,6 @@ namespace ParkingConvertJson.Controllers
             "Data Source=localhost\\SQLEXPRESS;" +
             "Initial Catalog=parkingapp;" +
             "Integrated Security=SSPI;";
-
-            failedRoadworks = new List<Features>();
-
         }
     }
 }

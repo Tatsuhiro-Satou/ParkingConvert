@@ -61,10 +61,10 @@ namespace ParkingConvertJson
 
         public void ConvertRoadWorks()
         {
-            var json = new WebClient().DownloadString("https://services7.arcgis.com/b8OtZx5E96LVMxxJ/arcgis/rest/services/Wegwerkzaamheden2017/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json");
-            ParentObject roadWorks = JsonConvert.DeserializeObject<ParentObject>(json);
+            var json = new WebClient().DownloadString("https://services7.arcgis.com/b8OtZx5E96LVMxxJ/arcgis/rest/services/Wegwerkzaamheden2017_View/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json");
+            RoadworkParent roadWorks = JsonConvert.DeserializeObject<RoadworkParent>(json);
 
-            foreach (Features item in roadWorks.features)
+            foreach (RoadworkFeatures item in roadWorks.features)
             {
                 roadworksController.Insert
                 (

@@ -18,10 +18,10 @@ namespace ParkingConvertJson
         {
             ParkingApp parkingApp = new ParkingApp();
 
-            parkingApp.ConvertParkingspaces();
-            //parkingApp.ConvertRoadWorks();
+            //parkingApp.ConvertParkingspaces();
+            parkingApp.ConvertRoadWorks();
 
-            //Debugger.Break();
+            Debugger.Break();
         }
     }
 }

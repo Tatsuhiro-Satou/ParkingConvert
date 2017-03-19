@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ParkingConvertJson.Roadwork
 {
-    class ParentObject
+    class RoadworkParent
     {
         public string objectIdFieldName { get; set; }
         public string globalIdFieldName { get; set; }
@@ -15,7 +15,41 @@ namespace ParkingConvertJson.Roadwork
         public string geometryType { get; set; }
         public SpatialReference spatialReference { get; set; }
         public List<Field> fields { get; set; }
-        public List<Features> features { get; set; }
+        public List<RoadworkFeatures> features { get; set; }
+    }
+
+    class RoadworkFeatures 
+    {
+        public Attributes attributes { get; set; }
+        public Geometry geometry { get; set; }
+        //public Tester geometry { get; set; }
+    }
+
+    class Attributes 
+    {
+        public int OBJECTID { get; set; }
+        public string GROEP { get; set; }
+        public string TITEL { get; set; }
+        public string ADRES { get; set; }
+        public string POSTCODE { get; set; }
+        public string PLAATS { get; set; }
+        public string EMAIL { get; set; }
+        public string WEBSITE { get; set; }
+        public string STATUS { get; set; }
+        public string GlobalID { get; set; }
+        //public float? Shape_Area { get; set; }
+        public int Shape_Area { get; set; }
+        //public string Shape_Area { get; set; }
+        public float? Shape_Length { get; set; }
+        public long CreationDate { get; set; }
+        public string Creator { get; set; }
+        public long EditDate { get; set; }
+        public string Editor { get; set; }
+    }
+
+    class Geometry
+    {
+        public decimal[] [] [] rings { get; set; }
     }
 
     class GeometricProperties
