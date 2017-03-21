@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ParkingConvertJson.Roadwork
 {
-    class RoadworkParent
+    class RoadworkParent 
     {
         public string objectIdFieldName { get; set; }
         public string globalIdFieldName { get; set; }
@@ -16,13 +16,13 @@ namespace ParkingConvertJson.Roadwork
         public SpatialReference spatialReference { get; set; }
         public List<Field> fields { get; set; }
         public List<RoadworkFeatures> features { get; set; }
+
     }
 
     class RoadworkFeatures 
     {
         public Attributes attributes { get; set; }
         public Geometry geometry { get; set; }
-        //public Tester geometry { get; set; }
     }
 
     class Attributes 
@@ -50,6 +50,9 @@ namespace ParkingConvertJson.Roadwork
     class Geometry
     {
         public decimal[] [] [] rings { get; set; }
+        // The MergedData list only gets used when a duplicate roadworks exists with different locations.
+        // The list will then contain the coordinates of the original roadworks and the duplicate instance.
+        public List<decimal[]> MergedData{ get; set; }
     }
 
     class GeometricProperties

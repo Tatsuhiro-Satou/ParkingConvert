@@ -59,8 +59,10 @@ namespace ParkingConvertJson.Parkingspace
 
     class Geometry
     {
-        public float? x { get; set; }
-        public float? y { get; set; }
+        //public float? x { get; set; }
+        //public float? y { get; set; }
+        public decimal x { get; set; }
+        public decimal y { get; set; }
     }
 
 }

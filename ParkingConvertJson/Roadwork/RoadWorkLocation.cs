@@ -9,7 +9,9 @@ namespace ParkingConvertJson.Model
     class RoadworkLocation
     {
         public int Roadworks { get; set; }
-        public float? Longitude { get; set; }
-        public float? Lattitude { get; set; }
+        //public float? Longitude { get; set; }
+        //public float? Longitude { get; set; }
+        public decimal Lattitude { get; set; }
+        public decimal Longitude { get; set; }
     }
 }

@@ -12,11 +12,11 @@ namespace ParkingConvertJson.Controllers
 {
     class RoadworksLocationController : DatabaseController
     {
-        public List<RoadworkLocation> failedRoadworkLocations { get; set; }
+        public List<RoadworkLocation> failed { get; set; }
 
         public RoadworksLocationController()
         {
-            failedRoadworkLocations = new List<RoadworkLocation>();
+            failed = new List<RoadworkLocation>();
         }
 
         public void Insert(int roadworks, decimal longitude, decimal lattitude) // but don't let null floats in the database
@@ -36,17 +36,40 @@ namespace ParkingConvertJson.Controllers
             }
             catch (Exception e)
             {
-                RoadworkLocation failed = new RoadworkLocation();
-                failed.Roadworks = roadworks;
-                //failed.Longitude = longitude;
-                //failed.Lattitude = lattitude;
-                failedRoadworkLocations.Add(failed);
+                RoadworkLocation failedRecord = new RoadworkLocation();
+                failedRecord.Roadworks = roadworks;
+                failedRecord.Longitude = longitude;
+                failedRecord.Lattitude = lattitude;
+                failed.Add(failedRecord);
                 Console.WriteLine("ERROR" + e.ToString());
             }
             finally
             {
                 connection.Close();
             }
+        }
+
+        /// <summary>
+        /// Removes all rows of this table.
+        /// </summary>
+        public void Truncate()
+        {
+                try
+                {
+                    connection.Open();
+                    query = $"TRUNCATE TABLE roadworks_location";
+                    sqlCommand = new SqlCommand(query, connection);
+                    sqlCommand.ExecuteNonQuery();
+                    sqlCommand.Dispose();
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("ERROR" + e.ToString());
+                }
+                finally
+                {
+                    connection.Close();
+                }
         }
 
     }

@@ -17,9 +17,9 @@ namespace ParkingConvertJson
     class ParkingApp
     {
         private DatabaseController databaseController;
-        private RoadworksController roadworksController;
-        private RoadworksLocationController roadworksLocationController;
-        private ParkingspaceController parkingspaceController;
+        public  RoadworksController roadworksController { get; set; }
+        public RoadworksLocationController roadworksLocationController { get; set; }
+        public ParkingspaceController parkingspaceController{ get; set; }
 
         public ParkingApp()
         {
@@ -48,7 +48,6 @@ namespace ParkingConvertJson
                     parkingspaceController.Insert
                     (
                         item.attributes.ID,
-                        item.attributes.BORDTYPE_WAARDE,
                         item.attributes.ONDERBORDTYPE_WAARDE,
                         item.geometry.x,
                         item.geometry.y
@@ -62,9 +61,10 @@ namespace ParkingConvertJson
         public void ConvertRoadWorks()
         {
             var json = new WebClient().DownloadString("https://services7.arcgis.com/b8OtZx5E96LVMxxJ/arcgis/rest/services/Wegwerkzaamheden2017_View/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json");
-            RoadworkParent roadWorks = JsonConvert.DeserializeObject<RoadworkParent>(json);
+            RoadworkParent roadworks = JsonConvert.DeserializeObject<RoadworkParent>(json);
+            roadworks = MergeDuplicates(roadworks);
 
-            foreach (RoadworkFeatures item in roadWorks.features)
+            foreach (RoadworkFeatures item in roadworks.features)
             {
                 roadworksController.Insert
                 (
@@ -73,15 +73,54 @@ namespace ParkingConvertJson
                    item.attributes.STATUS
                 );
 
-                foreach (var geometry in item.geometry.rings)
+                if (item.geometry.MergedData == null)
                 {
-                    foreach (var inner in geometry)
+                    foreach (var geometry in item.geometry.rings)
                     {
-                        roadworksLocationController.Insert(item.attributes.OBJECTID, inner[0], inner[1]);
+                        foreach (var inner in geometry)
+                        {
+                            roadworksLocationController.Insert(item.attributes.OBJECTID, inner[0], inner[1]);
+                        }
                     }
+                }
+                else
+                {
+                    foreach (var pos in item.geometry.MergedData)
+                    {
+                        roadworksLocationController.Insert(item.attributes.OBJECTID, pos[0], pos[1]);
+                    }
+
                 }
             }
 
+        }
+
+        /// <summary>
+        /// In het Roadwork json bestand kunnen meerdere unieke rows over dezelfde wegwerkzaamheid gaan. 
+        /// Om duplicates in de DB te voorkomen voeg ik hier de locaties van deze rows bij elkaar bij 1 row en verwijder ik de duplicate.
+        /// </summary>
+        /// <param name="roadworks"></param>
+        /// <returns></returns>
+        public RoadworkParent MergeDuplicates(RoadworkParent roadworks)
+        {
+            for (int item = 0; item < roadworks.features.Count; item++)
+            {
+                for (int subItem = 0; subItem < roadworks.features.Count; subItem++)
+                {
+                    if ((roadworks.features[item].attributes.OBJECTID != roadworks.features[subItem].attributes.OBJECTID) && (roadworks.features[item].attributes.TITEL.Equals(roadworks.features[subItem].attributes.TITEL)))
+                    {
+                        roadworks.features[item].geometry.MergedData = new List<decimal[]>();
+                        roadworks.features[item].geometry.MergedData = roadworks.features[item].geometry.rings[0].ToList();
+                        roadworks.features[item].geometry.MergedData.AddRange(roadworks.features[subItem].geometry.rings[0]); 
+
+                        roadworks.features.Remove(roadworks.features[subItem]);
+                        subItem--;
+                        item--;
+                    }
+                }
+
+            }
+            return roadworks;
         }
 
     }

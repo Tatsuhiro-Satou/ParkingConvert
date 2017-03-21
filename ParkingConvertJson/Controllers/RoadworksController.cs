@@ -34,6 +34,7 @@ namespace ParkingConvertJson.Controllers
             {
                 RoadworkParent failedRecord = new RoadworkParent();
                 failedRecord.features = new List<RoadworkFeatures>();
+                failedRecord.features.Add(new RoadworkFeatures());
                 failedRecord.features[0].attributes = new Attributes();
                 failedRecord.features[0].attributes.GlobalID = id_roadworks.ToString();
                 failedRecord.features[0].attributes.TITEL = description;
@@ -44,6 +45,30 @@ namespace ParkingConvertJson.Controllers
             {
                 connection.Close();
             }
+        }
+
+        /// <summary>
+        /// Removes all rows of this table.
+        /// Geeft een error, maar dat geeft niets.
+        /// </summary>
+        public void Truncate()
+        {
+                try
+                {
+                    connection.Open();
+                    query = $"DELETE FROM roadworks DBCC CHECKIDENT ('roadworks', RESEED, 0)";
+                    sqlCommand = new SqlCommand(query, connection);
+                    sqlCommand.ExecuteNonQuery();
+                    sqlCommand.Dispose();
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("ERROR" + e.ToString());
+                }
+                finally
+                {
+                    connection.Close();
+                }
         }
     }
 }
