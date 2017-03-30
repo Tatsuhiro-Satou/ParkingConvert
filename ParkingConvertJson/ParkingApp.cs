@@ -7,12 +7,10 @@ namespace ParkingConvertJson
 {
     class ParkingApp
     {
-        private DatabaseController databaseController;
         private ParkingspaceController parkingspaceController;
 
         public ParkingApp()
         {
-            databaseController = new DatabaseController();
             parkingspaceController = new ParkingspaceController();
 
             parkingspaceController.Truncate();
