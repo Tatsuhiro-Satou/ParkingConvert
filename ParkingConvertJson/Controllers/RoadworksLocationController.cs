@@ -1,5 +1,4 @@
-﻿using ParkingConvertJson.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Diagnostics;
@@ -12,11 +11,11 @@ namespace ParkingConvertJson.Controllers
 {
     class RoadworksLocationController : DatabaseController
     {
-        public List<RoadworkLocation> failed { get; set; }
+        //public List<RoadworkLocation> failed { get; set; }
 
         public RoadworksLocationController()
         {
-            failed = new List<RoadworkLocation>();
+            //failed = new List<RoadworkLocation>();
         }
 
         public void Insert(int roadworks, decimal longitude, decimal lattitude) // but don't let null floats in the database
@@ -36,12 +35,12 @@ namespace ParkingConvertJson.Controllers
             }
             catch (Exception e)
             {
-                RoadworkLocation failedRecord = new RoadworkLocation();
-                failedRecord.Roadworks = roadworks;
-                failedRecord.Longitude = longitude;
-                failedRecord.Lattitude = lattitude;
-                failed.Add(failedRecord);
-                Console.WriteLine("ERROR" + e.ToString());
+                //RoadworkLocation failedRecord = new RoadworkLocation();
+                //failedRecord.Roadworks = roadworks;
+                //failedRecord.Longitude = longitude;
+                //failedRecord.Lattitude = lattitude;
+                //failed.Add(failedRecord);
+                //Console.WriteLine("ERROR" + e.ToString());
             }
             finally
             {

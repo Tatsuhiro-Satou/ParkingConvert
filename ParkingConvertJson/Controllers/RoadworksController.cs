@@ -1,6 +1,4 @@
-﻿using ParkingConvertJson.Model;
-using ParkingConvertJson.Roadwork;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Globalization;
@@ -12,11 +10,11 @@ namespace ParkingConvertJson.Controllers
 {
     class RoadworksController : DatabaseController
     {
-        public List<RoadworkParent> failed { get; set; }
+        //public List<RoadworkParent> failed { get; set; }
 
         public RoadworksController()
         {
-            failed = new List<RoadworkParent>();
+            //failed = new List<RoadworkParent>();
         }
 
         public void Insert(int id_roadworks, string description, string status) // but don't let null floats in the database
@@ -32,14 +30,14 @@ namespace ParkingConvertJson.Controllers
             }
             catch (Exception e)
             {
-                RoadworkParent failedRecord = new RoadworkParent();
-                failedRecord.features = new List<RoadworkFeatures>();
-                failedRecord.features.Add(new RoadworkFeatures());
-                failedRecord.features[0].attributes = new Attributes();
-                failedRecord.features[0].attributes.GlobalID = id_roadworks.ToString();
-                failedRecord.features[0].attributes.TITEL = description;
-                failedRecord.features[0].attributes.STATUS = status;
-                failed.Add(failedRecord);
+                //RoadworkParent failedRecord = new RoadworkParent();
+                //failedRecord.Features = new List<RoadworkFeatures>();
+                //failedRecord.Features.Add(new RoadworkFeatures());
+                //failedRecord.Features[0].attributes = new Attributes();
+                //failedRecord.Features[0].attributes.GlobalID = id_roadworks.ToString();
+                //failedRecord.Features[0].attributes.TITEL = description;
+                //failedRecord.Features[0].attributes.STATUS = status;
+                //failed.Add(failedRecord);
             }
             finally
             {
