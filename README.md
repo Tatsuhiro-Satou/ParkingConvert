@@ -36,7 +36,7 @@ CREATE TABLE roadworks_location
     roadworks SMALLINT NOT NULL,
     longitude DECIMAL(18, 15) NOT NULL, 
     lattitude DECIMAL(18, 15) NOT NULL,
-	CONSTRAINT pk_roadworks_location
+    CONSTRAINT pk_roadworks_location
     PRIMARY KEY(roadworks, longitude, lattitude)
 );
 
