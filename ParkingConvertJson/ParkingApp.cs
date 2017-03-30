@@ -22,8 +22,16 @@ namespace ParkingConvertJson
         /// </summary>
         private void ConvertParkingspaces()
         {
-            string json = new WebClient().DownloadString("https://geoservices.denhaag.nl/arcgis/rest/services/V2_0_Verkeer/Weg/MapServer/0/query?where=BORDTYPE_WAARDE%3D%27Algemene+gehandicaptenplaats%27&outFields=*&outSR=4326&f=json");
-            dynamic parker = JsonConvert.DeserializeObject<dynamic>(json);
+            dynamic parker = null;
+            try
+            {
+                string json = new WebClient().DownloadString("https://geoservices.denhaag.nl/arcgis/rest/services/V2_0_Verkeer/Weg/MapServer/0/query?where=BORDTYPE_WAARDE%3D%27Algemene+gehandicaptenplaats%27&outFields=*&outSR=4326&f=json");
+                parker = JsonConvert.DeserializeObject<dynamic>(json);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Failed to load data from parkingspaces");
+            }
 
             foreach (dynamic item in parker.features)
             {
