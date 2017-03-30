@@ -5,16 +5,15 @@ Dit zijn de queries voor de database.
 2. Maak de tables aan
 3. Voeg de FK toe
 ``` 
--- ## Database maken ## --
 IF DB_ID('parkingapp') IS NULL
      CREATE DATABASE parkingapp
 
--- ## Tables maken ## --
+
 USE parkingapp
 CREATE TABLE parkingspace
 (
     id SMALLINT NOT NULL,
-    bord_type_waarde VARCHAR(50) NOT NULL,
+    --bord_type_waarde VARCHAR(50) NOT NULL,
     sign_type VARCHAR(50) NOT NULL,
     longitude DECIMAL(18, 15) NOT NULL,
     lattitude DECIMAL(18, 15) NOT NULL,
@@ -35,13 +34,16 @@ CREATE TABLE roadworks
 USE parkingapp
 CREATE TABLE roadworks_location
 (
-    id_roadworks_location SMALLINT IDENTITY(1,1) PRIMARY KEY,
     roadworks SMALLINT NOT NULL,
     longitude DECIMAL(18, 15) NOT NULL, -- 4.308
     lattitude DECIMAL(18, 15) NOT NULL, -- 52.098
+	CONSTRAINT pk_roadworks_location
+    PRIMARY KEY(roadworks, longitude, lattitude)
 );
 
 -- ## Foreign keys ## --
+-- ON DELETE CASCADE: Als de PK verwijderd wordt, worden ook de locations verwijderd.
+-- ON UPDATE CASCADE: Als de PK gewijzigt wordt in roadworks, word hij hier ook gewijzigd	
 USE parkingapp
 ALTER TABLE roadworks_location
     ADD CONSTRAINT FK_roadworks_location_roadworks
@@ -49,4 +51,6 @@ ALTER TABLE roadworks_location
     REFERENCES roadworks(id_roadworks)
     ON DELETE CASCADE  
     ON UPDATE CASCADE    
+
+
 ```
