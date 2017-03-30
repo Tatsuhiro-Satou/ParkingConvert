@@ -11,6 +11,7 @@ namespace ParkingConvertJson.Controllers
 
         public DatabaseController()
         {
+            filePath = @"..\..\..\error_log.txt";
             connection = new SqlConnection();
             connection.ConnectionString =
             "Data Source=localhost\\SQLEXPRESS;" +
