@@ -1,19 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ParkingConvertJson.Controllers
 {
     class ParkingspaceController : DatabaseController
     {
+        /// <summary>
+        /// Insert the JSON data into the database.
+        /// </summary>
+        /// <param name="id">ID of the parkingspace</param>
+        /// <param name="onderbordtype_waarde">Sign type</param>
         public void Insert(int id, string onderbordtype_waarde, decimal longitude, decimal lattitude) // but don't let null floats in the database
         {
-            //string longitudeString = "";
-            //string lattitudeString = "";
             string longitudeString = longitudeString = longitude.ToString(CultureInfo.InvariantCulture);
             string lattitudeString = lattitudeString = lattitude.ToString(CultureInfo.InvariantCulture);
 

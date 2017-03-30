@@ -1,14 +1,7 @@
 ﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using ParkingConvertJson.Controllers;
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ParkingConvertJson
 {
@@ -50,7 +43,6 @@ namespace ParkingConvertJson
                 else
                 {
                     Console.WriteLine($"Unable to insert the parkingspace with ID: {item.attributes.ID} ");
-
                 }
             }
 

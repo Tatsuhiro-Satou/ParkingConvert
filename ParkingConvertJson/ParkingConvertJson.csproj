@@ -49,8 +49,6 @@
   <ItemGroup>
     <Compile Include="Controllers\DatabaseController.cs" />
     <Compile Include="Controllers\ParkingspaceController.cs" />
-    <Compile Include="Controllers\RoadworksController.cs" />
-    <Compile Include="Controllers\RoadworksLocationController.cs" />
     <Compile Include="ParkingApp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
