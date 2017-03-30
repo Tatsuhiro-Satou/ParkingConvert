@@ -13,7 +13,6 @@ USE parkingapp
 CREATE TABLE parkingspace
 (
     id SMALLINT NOT NULL,
-    --bord_type_waarde VARCHAR(50) NOT NULL,
     sign_type VARCHAR(50) NOT NULL,
     longitude DECIMAL(18, 15) NOT NULL,
     lattitude DECIMAL(18, 15) NOT NULL,
