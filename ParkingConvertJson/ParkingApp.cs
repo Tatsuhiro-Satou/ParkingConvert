@@ -25,7 +25,7 @@ namespace ParkingConvertJson
             var json = new WebClient().DownloadString("https://geoservices.denhaag.nl/arcgis/rest/services/V2_0_Verkeer/Weg/MapServer/0/query?where=BORDTYPE_WAARDE%3D%27Algemene+gehandicaptenplaats%27&outFields=*&outSR=4326&f=json");
             dynamic parker = JsonConvert.DeserializeObject<dynamic>(json);
 
-            foreach (var item in parker.features)
+            foreach (dynamic item in parker.features)
             {
                 // Some rows may not have geometry and should be rejected. Insert only parkingspaces accessible to the public.
                 if ((item.attributes.BORDTYPE_WAARDE.ToString().Equals("Algemene gehandicaptenplaats")) && (item.geometry != null))
@@ -43,8 +43,6 @@ namespace ParkingConvertJson
                     Console.WriteLine($"Unable to insert the parkingspace with ID: {item.attributes.ID} ");
                 }
             }
-
         }
-
     }
 }

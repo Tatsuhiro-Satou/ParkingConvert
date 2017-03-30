@@ -7,6 +7,7 @@ namespace ParkingConvertJson.Controllers
         protected SqlConnection connection;
         protected SqlCommand sqlCommand;
         protected string query;
+        protected string filePath;
 
         public DatabaseController()
         {

@@ -33,3 +33,6 @@ C:\Users\user\Documents\Visual Studio 2015\Projects\ParkingConvertJson_dataset_a
 C:\Users\user\Documents\Visual Studio 2015\Projects\ParkingConvertJson_dataset_all\ParkingConvertJson\bin\Debug\Newtonsoft.Json.dll
 C:\Users\user\Documents\Visual Studio 2015\Projects\ParkingConvertJson_dataset_all\ParkingConvertJson\bin\Debug\Newtonsoft.Json.xml
 C:\Users\user\Documents\Visual Studio 2015\Projects\ParkingConvertJson_dataset_all\ParkingConvertJson\obj\Debug\ParkingConvertJson.csprojResolveAssemblyReference.cache
+C:\Users\Andre\Source\Repos\ParkingConvert\ParkingConvertJson\bin\Debug\ParkingConvertJson.exe.config
+C:\Users\Andre\Source\Repos\ParkingConvert\ParkingConvertJson\obj\Debug\ParkingConvertJson.exe
+C:\Users\Andre\Source\Repos\ParkingConvert\ParkingConvertJson\obj\Debug\ParkingConvertJson.pdb
