@@ -24,8 +24,8 @@ CREATE TABLE parkingspace
 USE parkingapp
 CREATE TABLE roadworks
 (
-    id_roadworks SMALLINT NOT NULL, -- Might not suffice for later.. objectid might be replaced
-    description VARCHAR(320) NOT NULL, -- TITEL
+    id_roadworks SMALLINT NOT NULL, 
+    description VARCHAR(320) NOT NULL,
     status VARCHAR(50) NOT NULL,
     CONSTRAINT pk_roadworks
     PRIMARY KEY(id_roadworks)
@@ -35,8 +35,8 @@ USE parkingapp
 CREATE TABLE roadworks_location
 (
     roadworks SMALLINT NOT NULL,
-    longitude DECIMAL(18, 15) NOT NULL, -- 4.308
-    lattitude DECIMAL(18, 15) NOT NULL, -- 52.098
+    longitude DECIMAL(18, 15) NOT NULL, 
+    lattitude DECIMAL(18, 15) NOT NULL,
 	CONSTRAINT pk_roadworks_location
     PRIMARY KEY(roadworks, longitude, lattitude)
 );
